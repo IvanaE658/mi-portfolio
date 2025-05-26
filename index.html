@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <header>
+    <img src="./assets/fotoperfil.jpg" alt="Foto ficticia de Ivana">
+    <h1>Ivana Erhardt</h1>
+    <nav>
+      <a href="inicio">Inicio</a>
+      <a href="about">Sobre mi</a>
+      <a href="proyectos">Proyectos</a>
+      <a href="habilidades">Habilidades</a>
+      <a href="contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Mi nombre es Ivana Lorena Erhardt. Soy profesora de Nivel Medio, con una formación en Educación Tecnológica.
+        Este portfolio reúne algunos de mis proyectos, planificaciones, recursos didácticos y reflexiones pedagógicas,
+        como muestra de mi práctica docente y de mi compromiso con una educación de calidad.</p>
+    </section>
+
+    <section id="about">
+      <h2>Sobre mi</h2>
+      <p> Hace 22 años que me desempeño en la docencia acompañando los procesos pducativos con compromiso, creatividad y
+        empatía.A lo largo de mi carrera, he trabajado en diferentes contextos educativos, lo que me ha permitido
+        desarrollar estrategias pedagógicas adaptadas a las necesidades de mis estudiantes, promoviendo ambientes de
+        aprendizaje inclusivos, participativos y centrados en el desarrollo integral.
+        Mi enfoque docente se basa en la formación continua, el uso de tecnologías educativas, y la promoción del
+        pensamiento crítico y la autonomía en los alumnos.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="cont-proyectos">
+        <div class="algoritmos">
+          <h4>Algoritmos y Diagramas de Flujo</h4>
+          <img src="./assets/diagrama-de-flujo.png" alt="Foto de Diagrama de Flujo">
+          <p>
+            Se trabaja con los estudiantes en el pensamiento computacional, un proceso cognitivo que permite la
+            generación de soluciones a problemas a través del uso de habilidades específicas, tales como abstracción,
+            descomposición, generalización, evaluación y diseño algorítmico y diahramas de flujo lo que permite a los
+            estudiantes llegar a diferentes y creativas soluciones para diversas situaciones problemáticas, que puedan
+            ser argumentadas y discutidas.</p>
+        </div>
+        <div class="scratch">
+          <h4>Scratch</h4>
+          <img src="./assets/scratch.jpg" alt="Logo de Scratch">
+          <p>Scratch es una plataforma de programación visual que permite crear tus propias historias interactivas,
+            juegos y animaciones. Con Scratch, puedes dar rienda suelta a tu creatividad y aprender conceptos básicos de
+            programación de una manera divertida y accesible</p>
+        </div>
+        <div class="inventor">
+          <h4>Scratch</h4>
+          <img src="./assets/Mit_app.jpg" alt="Logo de MIT AppInventor">
+          <p>MIT App Inventor es un entorno de programación intuitivo y visual que permite a todos, incluso a los niños,
+            crear aplicaciones completamente funcionales para teléfonos Android, iPhones y tabletas Android/iOS. Quienes
+            se inician en MIT App Inventor pueden tener una primera aplicación sencilla lista y funcionando en menos de
+            30 minutos. Además, nuestra herramienta basada en bloques facilita la creación de aplicaciones complejas y
+            de alto impacto en mucho menos tiempo, busca democratizar el desarrollo de software al empoderar a todas las
+            personas, especialmente a los jóvenes, para que pasen del consumo de tecnología a la creación de tecnología.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="colum-uno">
+        <ul>
+          <li>Comunicación efectiva</li>
+          <li>Planificación y organización</li>
+          <li>Flexibilidad y adaptabilidad</li>
+          <li>Habilidades pedagógicas</li>
+        </ul>
+      </div>
+      <div class="colum-dos">
+        <ul>
+          <li>Gestión de aula</li>
+          <li>Trabajo en equipo</li>
+          <li>Diversidad e inclusión</li>
+          <li>Resolución de conflictos</li>
+        </ul>
+      </div>
+    </section>
+    <section id="contacto">
+      <h3>Completa los datos</h3>
+      <form>
+        <label for="ape-nom">Apellido y Nombre:</label>
+        <input type="text" required id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input type="email" required id="email" name="email">
+        <textarea name="mensaje" id="">Escribe tu mensaje</textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h6>Diplomatura en Programación Fullstack / Práctico Html-CSS</h6>
+  </footer>
+</body>
+
+</html>
