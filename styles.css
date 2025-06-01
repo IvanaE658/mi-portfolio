@@ -97,10 +97,9 @@ section {
 }
 
 
-
 #contacto button {
   display: block;
-  padding: 5px;
+  padding: 2px 40px;
   border: 1px solid rgb(56, 42, 2);
   background: rgb(200, 151, 4);
   border-radius: 10px;
@@ -129,5 +128,4 @@ footer h6 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 20px;
   }
-
 }

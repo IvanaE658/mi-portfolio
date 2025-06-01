@@ -120,16 +120,18 @@
         <p>Resolución de conflictos</p>
       </div>
     </section>
+
+    <!--Bootstrap: Formulario-->
     <section id="contacto">
-      <h3>Completa los datos</h3>
-      <form>
-        <label for="ape-nom">Apellido y Nombre:</label>
-        <input type="text" required id="nombre" name="nombre">
-        <label for="email">Email:</label>
-        <input type="email" required id="email" name="email">
-        <textarea name="mensaje" id="">Escribe tu mensaje</textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit">Enviar</button>
     </section>
   </main>
 
