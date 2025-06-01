@@ -1,3 +1,59 @@
-/** {
-  background-color: black;
-}*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  border-bottom: 3px solid rgb(89, 2, 169);
+}
+
+p {
+  padding: 10px;
+  text-align: justify;
+
+}
+
+header img {
+  width: 200px;
+  border-radius: 20px;
+  margin-right: 40px;
+  box-shadow: 10px 12px 5px -4px rgba(0, 0, 0, 0.23);
+}
+
+.foto {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+section {
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+
+#proyectos img {
+  width: 200px;
+}
+
+#proyectos p {
+  font-size: 10px;
+  color: rgb(99, 97, 100);
+}
+
+.cont-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 20px;
+
+}
+
+.cont-proyectos img {
+  align-content: center;
+}
