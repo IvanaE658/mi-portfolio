@@ -3,14 +3,16 @@
   margin: 0;
 }
 
+
 h1,
 h2,
 h3 {
   font-family: "Montserrat";
+  animation: animacion-titulos 1s alternate infinite;
 }
 
 h2 {
-  border-bottom: 3px solid rgb(89, 2, 169);
+  border-bottom: 3px solid rgb(200, 151, 4);
 }
 
 p {
@@ -22,14 +24,14 @@ p {
 header img {
   width: 200px;
   border-radius: 20px;
-  margin-right: 40px;
+  margin-left: 20px;
   box-shadow: 10px 12px 5px -4px rgba(0, 0, 0, 0.23);
 }
 
 .foto {
   display: flex;
-  justify-content: left;
-  align-items: baseline;
+  justify-content: first baseline;
+  align-items: end;
 }
 
 section {
@@ -54,6 +56,34 @@ section {
 
 }
 
-.cont-proyectos img {
-  align-content: center;
+.items-hab {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.items-hab p {
+  text-align: center;
+}
+
+
+@keyframes animacion-titulos {
+  form {
+    opacity: 0;
+    transform: skew(0);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: skew(10deg);
+
+  }
+}
+
+.items-hab p {
+  background-color: rgb(200, 151, 4);
+  padding: 10px;
+  border-radius: 10px;
 }
